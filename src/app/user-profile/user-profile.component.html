@@ -1,0 +1,15 @@
+<div class="CI">
+
+  <h3>Fiche de contact</h3>
+
+  <p>
+    <img [src]="this.user.img" [alt]="img" />
+  </p>
+
+  <p>Nom: {{user.name}}</p>
+  <p>Prénom: {{user.firstName}}</p>
+  <p [style.visibility]="label">Age: {{user.age}}</p>
+  <p>{{user.quote}}</p>
+  <input [(ngModel)]="user.quote"/>
+  <button (click)="afficherAge()">Display Age</button>
+</div>

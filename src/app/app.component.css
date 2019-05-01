@@ -4,11 +4,6 @@
     margin-top: 2%; 
 }
 
-.button{
-    
-    
-    background-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    margin-top: 10%;
-    font-family: 'Press Start 2P', cursive;
-    font-size:0.6rem;
+button{
+    width: 10%;
 }
